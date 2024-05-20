@@ -83,7 +83,7 @@ const main = async () => {
     secondaryWallet2.address
   )
 
-  logger.info("Listening to events")
+  logger.info("Listening to events for bridge")
 
   let primaryCounter = 0
   let secondaryCounter = 0

@@ -24,7 +24,7 @@ const main = async () => {
 
   let nonceCounter1 = await httpProvider.getTransactionCount(wallet1.address)
   let nonceCounter2 = await httpProvider.getTransactionCount(wallet2.address)
-  logger.info("Listening to events")
+  logger.info("Listening to events for upgrades")
 
   let counter = 0
 
