@@ -37,8 +37,8 @@ module.exports.eventqueue = asyncLib.queue(async (task, completed) => {
       responseTransactionHash: txn.hash,
       randomNumber: task.randomNumber,
     }
-    await addToFirebase("upgrades", eventData)
-    await updateServedBlock(task.nonce, task.requestBlockNumber)
+    // await addToFirebase("upgrades", eventData)
+    // await updateServedBlock(task.nonce, task.requestBlockNumber)
 
     return logger.info(`Transaction sent for --> ${task.nonce}`)
   } catch (error) {

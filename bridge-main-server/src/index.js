@@ -453,9 +453,9 @@ const main = async () => {
     }
   )
 
-  // const startBlockNumber = 19919510
+  // const startBlockNumber = 19927075
 
-  // const filter = secondaryWebSocketContract.filters.LockedPOT()
+  // const filter = secondaryWebSocketContract.filters.LockedNFT()
   // console.log(
   //   `Fetching past LockedNFT events from block ${startBlockNumber} to latest...`
   // )
@@ -484,9 +484,9 @@ const main = async () => {
   //       served: false,
   //       requestTransactionHash: event.transactionHash,
   //       chain: "secondary",
-  //       type: "pot",
-  //       nonce: event.args[0],
-  //       release_nft: "0xECf98CAa6ff180008686a11F69c474Ca03314C72",
+  //       type: "nft",
+  //       nonce: "99999999999999999999999999",
+  //       release_nft: "0x62ad80dEe8797E8Dc288e968f0643567aF92Aa70",
   //     }
   //     // await addToFirebase("bridge", eventData).catch((error) => {
   //     //   logger.error(
