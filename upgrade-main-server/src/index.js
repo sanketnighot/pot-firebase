@@ -84,7 +84,7 @@ const main = async () => {
     secondaryWallet2.address
   )
 
-  logger.info("Listening to events for bridge")
+  logger.info("Listening to events for upgrade Nfts")
 
   let primaryCounter = 0
   let secondaryCounter = 0
