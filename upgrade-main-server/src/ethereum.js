@@ -22,7 +22,7 @@ module.exports.eventqueue = asyncLib.queue(async (task, completed) => {
       task.nftId,
       task.safety,
       task.randomNumber,
-      { nonce: task.txnNonce, gasLimit: 1000000, gasPrice: 150000000000 }
+      { nonce: task.txnNonce }
     )
     await txn.wait()
     const eventData = {
